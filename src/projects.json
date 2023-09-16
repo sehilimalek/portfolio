@@ -1,0 +1,21 @@
+[
+  {
+    "name":"Amdb",
+    "description":"The algerian movie database is a movie discovery app, with listings of cast and crews involved as well as trailers and images",
+    "techUsed":["ReactJS","NextJs","MongodB","Redux"],
+    "cover":"/amdb.jpg",
+    "category":"Web",
+    "github":"",
+    "demo":""
+
+  },
+  {
+    "name":"Bncars",
+    "description":"Solution for a car rental company with a website with car rental system, a NextJs app for ressources management and a Gps tracking system for cars",
+    "techUsed":["ReactJS","NextJs","MongodB","Tracar API"],
+    "cover":"/bncars.jpg",
+    "category":"WebApp",
+    "github":"",
+    "demo":""
+  }
+]

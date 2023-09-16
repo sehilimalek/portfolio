@@ -20,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={josefin.className}>
+      <body
+        className={`${josefin.className} bg-neutral-300 dark:bg-neutral-900 `}
+      >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           {children}

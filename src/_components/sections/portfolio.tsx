@@ -1,14 +1,15 @@
-import React from "react";
+import projects from "../../projects.json" assert { type: "json" };
+
+import ProjectCard from "../projects-card";
 
 const Portfolio = () => {
   return (
-    <section className="px-10 py-4 space-y-8">
-      <div className="space-y-2">
-        <h3 className="text-2xl">Portfolio</h3>
-        <p className="text-medium leading-6 text-neutral-500">
-          Freelancer providing services for programming and designing content
-          needs.Join me below!
-        </p>
+    <section>
+      <h3 className="text-2xl">Projects</h3>
+      <div className="md:flex justify-start gap-4 space-y-4 md:space-y-0">
+        {projects.map((p) => (
+          <ProjectCard key={p.name} project={p} />
+        ))}
       </div>
     </section>
   );

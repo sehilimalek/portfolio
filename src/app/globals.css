@@ -73,4 +73,8 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  section {
+    @apply bg-background p-4  border shadow rounded-xl space-y-4
+  }
 }

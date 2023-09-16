@@ -1,9 +1,10 @@
 import { ModeToggle } from "./displayMode-toggle";
+import Toggles from "./toggles";
 
 const Navbar = () => {
   return (
-    <nav className="p-4 flex justify-end">
-      <ModeToggle />
+    <nav className=" hidden p-4">
+      <Toggles />
     </nav>
   );
 };
